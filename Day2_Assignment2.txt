@@ -1,0 +1,11 @@
+﻿<html>
+<head>
+<title>
+JAVASCRIPT
+</title>
+<h1>JAVASCRIPT program to print the contents of the windows</h1>
+</head>
+<body>
+ <button onclick="window.print()">Print this page</button> 
+</body>
+</html>
