@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>current date</title>
+</head>
+<body>
+    <h2>hi letsUpgrade </h2>
+        <p >the current date is : <span id="day"></span></p>
+        <button onclick="date()">click to see day</button>
+       <script>
+           function date()
+           {
+             var a=new Date();
+             var date=a.getDate();
+             var month=a.getMonth()+1;
+             var year=a.getFullYear();
+             var curday=date+"/"+month+"/"+year;
+             document.getElementById("day").innerHTML=curday;
+           } 
+        </script>
+</body>
+</html>
