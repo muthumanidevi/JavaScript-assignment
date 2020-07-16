@@ -1,0 +1,31 @@
+﻿HTML Code:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>hi hello </h1>
+    <script src="scripts/str.js"></script>
+        <script src="scripts/prompt.js"></script>
+</body>
+</body>
+</html>
+
+
+Javascript Code:
+//string
+let txt = " hi gGhello Wwelcome to javascript.";
+    console.log(txt.length);
+    console.log(txt.substring(1,5));
+    // Array
+let arr = ["apple", "pineapple"];
+let arr1 = ["mango"];
+console.log(arr.concat(arr1));
+console.log(arr.length);
+console.log(arr.pop);
+console.log(arr);
